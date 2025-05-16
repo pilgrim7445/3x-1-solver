@@ -1,14 +1,17 @@
 print("3x+1 solver")
 
 n = int(input("Number: "))
+a = n
 
 while True:
-    if (n % 2) == 0:
-       n = n/2
+    if (a % 2) == 0:
+       a = a/2
        print(int(n))
     else:
-       n = n*3+1
+       a = a*3+1
        print(int(n))
        
-    if n == 1:
+    if a == 1:
         break
+
+print("The number {a}")
