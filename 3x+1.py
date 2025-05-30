@@ -8,17 +8,25 @@ if mode == 1:
 
     while True:
         if (a % 2) == 0:
-           a = a/2
-           print(int(a))
+            a = a/2
+            print(int(a))
             iter += 1
         else:
-           a = a*3+1
-           print(int(a))
-           iter += 1
+            a = a*3+1
+            print(int(a))
+            iter += 1
         if a == 1:
             break
+    print("")
+    print("The number ", n, "took", iter, "iterations to get to 1.")
 if mode == 2:
-    print("wait for an upd")
-
-print("")
-print("The number ", n, "took", iter, "iterations to get to 1.")
+    n = 1
+    a = n
+    iter = 0
+    if (n % 2) == 0:
+        a = a/2
+        iter += 1
+    else:
+        a = a*3+1
+        iter += 1
+    if a == 1:
