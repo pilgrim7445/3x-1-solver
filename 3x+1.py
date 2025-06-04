@@ -18,7 +18,7 @@ if mode == 1:
         if a == 1:
             break
     print("")
-    print("The number ", n, "took", iter, "iterations to get to 1.")
+    print("The number", n, "took", iter, "iterations to get to 1.")
 if mode == 2:
     n = 1
     a = n
