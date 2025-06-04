@@ -33,6 +33,6 @@ if mode == 2:
                 iter += 1
             if a == 1:
                 break
-            print("The number", n, "took", iter, "iterations to get to 1.")
-            n += 1
-            a = n
+        print("The number", n, "took", iter, "iterations to get to 1.")
+        n += 1
+        a = n
