@@ -24,13 +24,15 @@ if mode == 2:
     a = n
     iter = 0
     while True:
-        if (n % 2) == 0:
-            a = a/2
-            iter += 1
-        else:
-            a = a*3+1
-            iter += 1
-        if a == 1:
+        while True:
+            if (n % 2) == 0:
+                a = a/2
+                iter += 1
+            else:
+                a = a*3+1
+                iter += 1
+            if a == 1:
+                break
             print("The number", n, "took", iter, "iterations to get to 1.")
             n += 1
             a = n
